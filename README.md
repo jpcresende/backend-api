@@ -14,7 +14,7 @@ Installation
 First, clone the repository:
 
 ```bash
-# git clone https://github.com/jpcresende/backend-api-rest.git # optionally, specify the directory in which to clone
+# git clone git@github.com:jpcresende/backend-api.git # optionally, specify the directory in which to clone
 $ cd path/to/install
 ```
 
@@ -61,8 +61,8 @@ If you develop or deploy using Docker, we provide configuration for you.
 Prepare your development environment using [docker compose](https://docs.docker.com/compose/install/):
 
 ```bash
-$ git clone https://github.com/jpcresende/backend-api-rest.git
-$ cd backend-api-rest
+$ git clone git@github.com:jpcresende/backend-api.git
+$ cd backend-api
 $ docker-compose build
 # Install dependencies via composer, if you haven't already:
 $ docker-compose run api-tools composer install
