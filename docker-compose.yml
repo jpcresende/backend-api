@@ -1,0 +1,22 @@
+version: "2"
+services:
+  apigility:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+     - "8080:80"
+    volumes:
+     - .:/var/www
+
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: admin123
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8081:8080
