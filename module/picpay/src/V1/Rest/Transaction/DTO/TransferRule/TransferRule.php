@@ -2,7 +2,7 @@
 
 namespace picpay\V1\Rest\Transaction\DTO\TransferRule;
 
-use backend\V1\Rest\Transaction\DTO\User\User;
+use picpay\V1\Rest\Transaction\DTO\User\User;
 
 class TransferRule
 {
